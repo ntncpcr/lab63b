@@ -18,7 +18,8 @@ https://www.youtube.com/watch?v=NLIUsWLEpmg
 ## วิธีการทำการทดลอง
 1.นำไมโครคอนโทรเลอร์ต่อเข้ากับ serial port
 
-![image](https://user-images.githubusercontent.com/80881680/112365164-e7e99880-8d09-11eb-8885-2a343b798e42.png)
+![image](https://user-images.githubusercontent.com/80881680/112386331-5d159780-8d23-11eb-8700-b79b4638297c.png)
+
 
 2.เลือกตัวอย่างโปรแกรมที่ต้องการใช้ในที่นี้จะเลือกตัวอย่างที่ 1
 
@@ -27,9 +28,10 @@ https://www.youtube.com/watch?v=NLIUsWLEpmg
 
 ![image](https://user-images.githubusercontent.com/80881680/112365692-883fbd00-8d0a-11eb-9b0a-7b4430e75fcb.png)
 
-3.จากโค้ดจะเห็นว่ามี 15 บรรทัด แบ่งได้เป็น 2 ส่วนคือส่วน set up และส่วน loop โดส่วน set up จะรันเพียงครั้งเดียว ส่วน loop นั้นจะรันต่อเนื่อง 
+3.จากโค้ดจะเห็นว่ามี 15 บรรทัด แบ่งได้เป็น 2 ส่วนคือส่วน set up และส่วน loop โดยส่วน set up จะรันเพียงครั้งเดียว ส่วน loop นั้นจะรันต่อเนื่อง 
 
-![image](https://user-images.githubusercontent.com/80881680/112365772-9db4e700-8d0a-11eb-9703-a24605189519.png)
+![image](https://user-images.githubusercontent.com/80881680/112386410-74ed1b80-8d23-11eb-81f2-9b5fac276e2e.png)
+
 
 4.เข้าไปที่ configuration file ใน program พิมพ์ vi platformio.ini เพื่อแสดงข้อมูล 
 
