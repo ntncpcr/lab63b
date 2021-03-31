@@ -61,11 +61,11 @@ void loop()
   int val = analogRead(sensorPin);
   Serial.print("val = "); // พิมพ์ข้อความส่งเข้าคอมพิวเตอร์ "val = "
   Serial.println(val); // พิมพ์ค่าของตัวแปร val
-	if(val<400) {
-    digitalWrite(3, HIGH);
-	}
+  if(val<500) {
+   	 digitalWrite(3, HIGH);
+  }
   else {
-		digitalWrite(3, LOW);
+	digitalWrite(3, LOW);
 	}
 	delay(100);
 }
