@@ -52,7 +52,7 @@ int led = 3;
 void setup()
 {
 	Serial.begin(115200);
-  pinMode(0, INPUT);
+ 	pinMode(0, INPUT);
 	pinMode(3, OUTPUT);
 	Serial.println("\n\n\n");
 }
