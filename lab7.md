@@ -35,9 +35,9 @@
 
 ## วิธีการทำการทดลอง 
 
-1.นำไมโครคอนโทรลเลอร์ต่อกับนำไมโครคอนโทรลเลอร์ต่อกับ serial port โดยผ่าน adapter
+1.นำไมโครคอนโทรลเลอร์ต่อกับ serial port โดยผ่าน adapter
 
-2.ต่อ sensor แสงและไฟบ้านข้ากับ adapter 
+2.ต่อ sensor แสงและไฟบ้านเข้ากับ adapter 
 
 3.เขียนโปรแกรมดังนี้
 
@@ -52,7 +52,6 @@ int led = 3;
 void setup()
 {
 	Serial.begin(115200);
- 	pinMode(0, INPUT);
 	pinMode(3, OUTPUT);
 	Serial.println("\n\n\n");
 }
